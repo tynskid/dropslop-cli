@@ -1,0 +1,12 @@
+{
+  "name": "dropslop",
+  "version": "0.1.0",
+  "description": "Check markdown and text files for phrases that read machine-made, from the command line or in CI.",
+  "bin": { "dropslop": "bin/dropslop.js" },
+  "files": ["bin", "README.md"],
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test test/" },
+  "homepage": "https://dropslop.ai/developers/",
+  "license": "MIT",
+  "private": true
+}
